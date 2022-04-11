@@ -43,7 +43,7 @@
                             <Style Selector="Grid#PART_ContentCoverGrid:not(.notransitions)">
                                 <Setter Property="Transitions">
                                     <Transitions>
-                                        <DoubleTransition Property="Opacity" Easing="LinearEasing" Duration="0.3" />
+                                        <DoubleTransition Property="Opacity" Easing="QuinticEaseOut" Duration="0:0:0.25" />
                                     </Transitions>
                                 </Setter>
                             </Style>
